@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     for (int i=1;i<6;i=i+1){
-        for(int j=1;j<6;j=j+1){
+        for(char j='a';j<='e';j=j+1){
             cout<<j;
         }cout<<" "<<endl;
     }
